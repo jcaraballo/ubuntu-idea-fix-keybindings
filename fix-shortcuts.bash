@@ -15,3 +15,7 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Con
 # $ gsettings list-recursively org.gnome.desktop.wm.keybindings | grep begin-move
 # org.gnome.desktop.wm.keybindings begin-move ['<Alt>F7']
 gsettings set org.gnome.desktop.wm.keybindings begin-move "['<Super>F7']"
+
+# $ gsettings get org.gnome.settings-daemon.plugins.media-keys screensaver
+# '<Control><Alt>l'
+gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver '<Primary><Super>l'
