@@ -12,6 +12,14 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-left "['<Cont
 # org.gnome.desktop.wm.keybindings switch-to-workspace-right ['<Control><Alt>Right']
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-right "['<Control><Super>Right']"
 
+# $ gsettings list-recursively org.gnome.desktop.wm.keybindings | grep switch-to-workspace-up
+# org.gnome.desktop.wm.keybindings switch-to-workspace-up ['<Control><Alt>Up']
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-up "['<Control><Super>Up']"
+
+# $ gsettings list-recursively org.gnome.desktop.wm.keybindings | grep switch-to-workspace-down
+# org.gnome.desktop.wm.keybindings switch-to-workspace-down ['<Control><Alt>Down']
+gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-down "['<Control><Super>Down']"
+
 # $ gsettings list-recursively org.gnome.desktop.wm.keybindings | grep begin-move
 # org.gnome.desktop.wm.keybindings begin-move ['<Alt>F7']
 gsettings set org.gnome.desktop.wm.keybindings begin-move "['<Super>F7']"
