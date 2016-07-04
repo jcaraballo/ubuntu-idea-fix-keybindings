@@ -34,5 +34,5 @@ gsettings set org.gnome.desktop.wm.keybindings begin-resize "['disabled']"
 
 # $ gsettings get org.gnome.settings-daemon.plugins.media-keys terminal
 # '<Control><Alt>t'
-$ gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['disabled']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys terminal "['disabled']"
 
